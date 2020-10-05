@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LandingVC: UIViewController {
+class MovieListVC: UIViewController {
 
     //MARK:- Outlet
     
@@ -56,7 +56,7 @@ class LandingVC: UIViewController {
 }
 
 //MARK:- UITextView Delegate
-extension LandingVC: UITextFieldDelegate {
+extension MovieListVC: UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         //For mobile numer validation
 //        if textField == txtField {

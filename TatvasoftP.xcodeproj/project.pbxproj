@@ -14,7 +14,7 @@
 		7671E2082527031C003C5B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7671E2062527031C003C5B96 /* LaunchScreen.storyboard */; };
 		7671E2182527038D003C5B96 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E2132527038D003C5B96 /* ViewModel.swift */; };
 		7671E2192527038D003C5B96 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E2152527038D003C5B96 /* DataModel.swift */; };
-		7671E21A2527038D003C5B96 /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E2172527038D003C5B96 /* LandingVC.swift */; };
+		7671E21A2527038D003C5B96 /* MovieListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E2172527038D003C5B96 /* MovieListVC.swift */; };
 		7671E224252703AE003C5B96 /* AppRefereshTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E21C252703AE003C5B96 /* AppRefereshTableView.swift */; };
 		7671E225252703AE003C5B96 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E21E252703AE003C5B96 /* CoreDataManager.swift */; };
 		7671E228252703AE003C5B96 /* Utility+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E223252703AE003C5B96 /* Utility+Extention.swift */; };
@@ -30,7 +30,7 @@
 		7671E2092527031C003C5B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7671E2132527038D003C5B96 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		7671E2152527038D003C5B96 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		7671E2172527038D003C5B96 /* LandingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		7671E2172527038D003C5B96 /* MovieListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListVC.swift; sourceTree = "<group>"; };
 		7671E21C252703AE003C5B96 /* AppRefereshTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRefereshTableView.swift; sourceTree = "<group>"; };
 		7671E21E252703AE003C5B96 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		7671E223252703AE003C5B96 /* Utility+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Utility+Extention.swift"; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		7671E2162527038D003C5B96 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7671E2172527038D003C5B96 /* LandingVC.swift */,
+				7671E2172527038D003C5B96 /* MovieListVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,7 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7671E1F925270318003C5B96 /* AppDelegate.swift in Sources */,
-				7671E21A2527038D003C5B96 /* LandingVC.swift in Sources */,
+				7671E21A2527038D003C5B96 /* MovieListVC.swift in Sources */,
 				7671E2192527038D003C5B96 /* DataModel.swift in Sources */,
 				7671E2182527038D003C5B96 /* ViewModel.swift in Sources */,
 				7671E20325270318003C5B96 /* TatvasoftP.xcdatamodeld in Sources */,
