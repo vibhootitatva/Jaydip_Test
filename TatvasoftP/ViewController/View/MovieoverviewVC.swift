@@ -45,6 +45,10 @@ class MovieoverviewVC: UIViewController {
     }
     
     func setData(){
+        
+        imgPoster.layer.borderColor = UIColor.systemRed.cgColor
+        imgPoster.layer.borderWidth = 2
+        
         let obj = viewModel.objMoviewData
         lblMovieName.text = obj.title
         lblMovieData.text = obj.tagline
@@ -54,6 +58,10 @@ class MovieoverviewVC: UIViewController {
         lblMovieRevenue.text = "$\(obj.revenue ?? 0)"
         lblMovieReleaseDate.text = obj.realesedate
         lblMovieProductionBudget.text = "$\(obj.budget ?? 0)"
+        let strUrl = viewModel.strImageBaseUrl + "w185" + (obj.poster_path ?? "")
+        imgPoster.loadImageUsingCache(withUrl: strUrl)
+        let strBack = viewModel.strImageBaseUrl + "original" + (obj.backBanner ?? "")
+        imgBackGround.loadImageUsingCache(withUrl: strBack)
         
         var arrLg = [String]()
         if obj.spoken_languages?.count ?? 0 > 1 {

@@ -15,7 +15,7 @@ class ViewModel: NSObject {
     var strApiKey = "14bc774791d9d20b3a138bb6e26e2579"
     var strMoviewListAPI = "https://api.themoviedb.org/3/discover/movie?api_key="
     var strMoviewDataAPI = "https://api.themoviedb.org/3/movie/"
-    var strImageBaseUrl = "http://image.tmdb.org/t/p/w185"
+    var strImageBaseUrl = "https://image.tmdb.org/t/p/"//"https://image.tmdb.org/t/p/w185"
     var arrMoviewList = [DataModel]()
     var objMoviewData = MovieData([:])
     

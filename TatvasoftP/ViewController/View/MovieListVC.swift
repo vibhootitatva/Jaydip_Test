@@ -68,9 +68,9 @@ extension MovieListVC: UITableViewDelegate, UITableViewDataSource {
         cell.lblMovieDate.text = obj.strDate
         cell.lblMovieDescription.text = obj.strOverview
         
-        let strUrl = viewModel.strImageBaseUrl + (obj.strImage ?? "")
+        let strUrl = viewModel.strImageBaseUrl + "w185" + (obj.strImage ?? "")
         
-        cell.imageView?.loadImageUsingCache(withUrl: strUrl)
+        cell.imgMovie?.loadImageUsingCache(withUrl: strUrl)
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
