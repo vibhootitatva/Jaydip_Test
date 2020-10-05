@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7615724A252B24390043769F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 76157249252B24390043769F /* Reachability.m */; };
 		7671E1F925270318003C5B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E1F825270318003C5B96 /* AppDelegate.swift */; };
 		7671E20025270318003C5B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7671E1FE25270318003C5B96 /* Main.storyboard */; };
 		7671E20325270318003C5B96 /* TatvasoftP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7671E20125270318003C5B96 /* TatvasoftP.xcdatamodeld */; };
@@ -18,9 +19,14 @@
 		7671E224252703AE003C5B96 /* AppRefereshTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E21C252703AE003C5B96 /* AppRefereshTableView.swift */; };
 		7671E225252703AE003C5B96 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E21E252703AE003C5B96 /* CoreDataManager.swift */; };
 		7671E228252703AE003C5B96 /* Utility+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671E223252703AE003C5B96 /* Utility+Extention.swift */; };
+		76A5CDBC252B134600A6DAA6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A5CDBB252B134600A6DAA6 /* NetworkManager.swift */; };
+		76A5CDBE252B20A700A6DAA6 /* MovieoverviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A5CDBD252B20A700A6DAA6 /* MovieoverviewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76157247252B24380043769F /* TatvasoftP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TatvasoftP-Bridging-Header.h"; sourceTree = "<group>"; };
+		76157248252B24390043769F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		76157249252B24390043769F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		7671E1F525270318003C5B96 /* TatvasoftP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TatvasoftP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7671E1F825270318003C5B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7671E1FF25270318003C5B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +40,8 @@
 		7671E21C252703AE003C5B96 /* AppRefereshTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRefereshTableView.swift; sourceTree = "<group>"; };
 		7671E21E252703AE003C5B96 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		7671E223252703AE003C5B96 /* Utility+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Utility+Extention.swift"; sourceTree = "<group>"; };
+		76A5CDBB252B134600A6DAA6 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		76A5CDBD252B20A700A6DAA6 /* MovieoverviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieoverviewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76157246252B24210043769F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				76157248252B24390043769F /* Reachability.h */,
+				76157249252B24390043769F /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 		7671E1EC25270318003C5B96 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +83,7 @@
 		7671E1F725270318003C5B96 /* TatvasoftP */ = {
 			isa = PBXGroup;
 			children = (
+				76A5CDBA252B134600A6DAA6 /* NetworkManager */,
 				76A5CDB9252B0B0B00A6DAA6 /* ThiredParty */,
 				7671E21025270342003C5B96 /* Config */,
 				7671E20F25270331003C5B96 /* Storyboard */,
@@ -88,6 +106,7 @@
 		7671E21025270342003C5B96 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				76157247252B24380043769F /* TatvasoftP-Bridging-Header.h */,
 				7671E1F825270318003C5B96 /* AppDelegate.swift */,
 				7671E2092527031C003C5B96 /* Info.plist */,
 			);
@@ -124,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				7671E2172527038D003C5B96 /* MovieListVC.swift */,
+				76A5CDBD252B20A700A6DAA6 /* MovieoverviewVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -131,6 +151,7 @@
 		7671E21B252703AE003C5B96 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				76157246252B24210043769F /* Reachability */,
 				7671E21C252703AE003C5B96 /* AppRefereshTableView.swift */,
 				7671E21D252703AE003C5B96 /* CoreData */,
 				7671E223252703AE003C5B96 /* Utility+Extention.swift */,
@@ -152,6 +173,14 @@
 			children = (
 			);
 			path = ThiredParty;
+			sourceTree = "<group>";
+		};
+		76A5CDBA252B134600A6DAA6 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				76A5CDBB252B134600A6DAA6 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +215,7 @@
 				TargetAttributes = {
 					7671E1F425270318003C5B96 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -225,9 +255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A5CDBC252B134600A6DAA6 /* NetworkManager.swift in Sources */,
 				7671E1F925270318003C5B96 /* AppDelegate.swift in Sources */,
 				7671E21A2527038D003C5B96 /* MovieListVC.swift in Sources */,
+				7615724A252B24390043769F /* Reachability.m in Sources */,
 				7671E2192527038D003C5B96 /* DataModel.swift in Sources */,
+				76A5CDBE252B20A700A6DAA6 /* MovieoverviewVC.swift in Sources */,
 				7671E2182527038D003C5B96 /* ViewModel.swift in Sources */,
 				7671E20325270318003C5B96 /* TatvasoftP.xcdatamodeld in Sources */,
 				7671E225252703AE003C5B96 /* CoreDataManager.swift in Sources */,
@@ -376,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TatvasoftP/Config/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,6 +418,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tatvasoft.app.TatvasoftP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jaydip/Desktop/TatvaSoftP/TatvasoftP/Config/TatvasoftP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -393,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TatvasoftP/Config/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,6 +438,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tatvasoft.app.TatvasoftP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jaydip/Desktop/TatvaSoftP/TatvasoftP/Config/TatvasoftP-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

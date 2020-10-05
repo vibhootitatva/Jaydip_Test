@@ -33,7 +33,9 @@ class Utilities {
 extension UIImageView {
     
     func loadImageUsingCache(withUrl urlString : String) {
-        let url = URL(string: urlString)
+        let encodedURL = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        let url = URL.init(string: encodedURL)
+        let cc = urlString
         if url == nil {return}
         self.image = nil
         
