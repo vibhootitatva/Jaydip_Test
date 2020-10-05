@@ -66,6 +66,7 @@
 		7671E1F725270318003C5B96 /* TatvasoftP */ = {
 			isa = PBXGroup;
 			children = (
+				76A5CDB9252B0B0B00A6DAA6 /* ThiredParty */,
 				7671E21025270342003C5B96 /* Config */,
 				7671E20F25270331003C5B96 /* Storyboard */,
 				7671E2112527038D003C5B96 /* ViewController */,
@@ -144,6 +145,13 @@
 				7671E20125270318003C5B96 /* TatvasoftP.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		76A5CDB9252B0B0B00A6DAA6 /* ThiredParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThiredParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
